@@ -1,0 +1,292 @@
+/* Importando fontes do Google Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Muli");
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+
+/*Estilo das tags gerais*/
+body {
+  background-color: #551177;
+  color: #ffff00;
+  font-size: 16px;
+  font-family: "open sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #ffff00;
+}
+a:visited {
+  color: #eeee00;
+}
+
+/*Estilo das Seções*/
+nav,
+header {
+  text-align: center;
+}
+header {
+  display: block;
+  padding: 0px;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+nav {
+  display: block;
+  border-bottom: 2px solid;
+  margin: 2px;
+  padding: 4px 4px;
+  font-family: "Muli", sans-serif;
+  font-size: 18px;
+}
+section {
+  display: block;
+  padding: 10px;
+}
+footer {
+  clear: both;
+}
+
+/*Estilo dos Elementos das Seções*/
+.menu {
+  margin: 1px auto;
+}
+.botao {
+  display: inline-block;
+  margin: 0px 4px;
+  padding: 0px 4px;
+  width: 120px;
+}
+.imgLogo {
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+.apres,
+.ender {
+  text-align: center;
+}
+.apres {
+  font-size: 18px;
+}
+.imgapresentacao {
+  float: center;
+}
+.ender {
+  font-size: 14px;
+  font-style: italic;
+  border-top: 2px solid;
+  padding: 10px;
+}
+/*Elementos únicos da página mascaras.html*/
+.mascTitulo {
+  text-align: left;
+  font-size: 22px;
+  padding-top: 10px; /* com o intuito de separar do menu*/
+}
+.imgCorMasc {
+  border: 2px solid orange;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  vertical-align: middle;
+}
+li {
+  padding: 10px;
+}
+.lisDescricao {
+  list-style: square;
+  font-size: 18px;
+  color: #ffff00;
+}
+.lisCarac {
+  list-style-image: url("../Imagens/Seta18.png");
+  font-size: 16px;
+}
+/* Elementos das páginas de Modelos de Máscaras */
+.janInfo {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+input[type="button"] {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.imgMasc {
+  align-items: center;
+  border: 4px orange solid;
+  margin: auto;
+  display: block;
+}
+/*Elementos únicos da página camisas.html*/
+.tabInfo {
+  border-collapse: collapse;
+  background-color: #ffffcc;
+  color: #2255aa;
+  text-align: center;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+.tabInfo img {
+  height: 312px;
+  width: 250px;
+}
+.imgCel{
+  text-align: center;
+  background-color: #FFFF;
+}
+.tabInfo td,
+th {
+  border: 3px solid #77ccdd;
+  padding: 6px 6px 4px 6px;
+  font-weight: normal;
+}
+.linTH {
+  background-color: #0099dd;
+  color: #ffffff;
+}
+.colTH {
+  color: #005599;
+  background-color: #ffff;
+  width: 104px;
+  text-align: center;
+}
+.tabInterna {
+  width: 100%;
+  margin: 0;
+}
+.tabInterna th {
+  width: 50%;
+  font-weight: normal;
+}
+.tabInterna img {
+  width: 25px;
+  height: 25px;
+}
+.tabInfo a:link{
+  color: #005599;
+}
+.tabInfo a:visited{
+  color:#005599;
+}
+/*Elementos da página compras.html*/
+input {
+  border-radius: 4px;
+}
+select {
+  border-radius: 4px;
+}
+optgroup {
+  font-style: normal;
+}
+option {
+  margin-left: 50px;
+}
+radio:checked {
+  background-color: red;
+}
+.divCompras {
+  color: #2255aa;
+  background-color: #eeeeaa;
+  padding: 6px 6px 15px 6px;
+  margin: 20px auto;
+  border: 2px solid #77ccdd;
+  width: 600px;
+}
+.listaCompras {
+  width: 230px;
+  height: 230px;
+  float: right;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.colLabSelProd {
+  width: 260px;
+  height: 40px;
+  float: left;
+}
+.colSelProd {
+  width: 160px;
+  float: right;
+}
+.linhaProdSel {
+  width: 250px;
+  margin-bottom: 6px;
+  float: left;
+}
+.elemEsq {
+  float: left;
+  display: block;
+}
+.elemDir {
+  float: right;
+  display: block;
+}
+.impMedio {
+  width: 80px;
+}
+.botoes {
+  text-align: right;
+  margin: 20px 10px 0px 10px;
+}
+/* Elementos da página continuar.html */
+.fsEsq {
+  float: left;
+  display: inline;
+  margin: 0px 0px 0px 0px;
+}
+.fsDir {
+  float: right;
+  display: inline;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.inpGrande {
+  width: 400px;
+}
+.inpNCC {
+  width: 130px;
+}
+.inpTelef {
+  width: 90px;
+}
+.inpEnder {
+  width: 200px;
+  height: 60px;
+}
+.numDD {
+  width: 30px;
+}
+.numQD {
+  width: 50px;
+}
+.divLinha {
+  margin-bottom: 6px;
+}
+.colPri {
+  float: left;
+  display: block;
+  width: 90px;
+}
+.colPriCompras {
+  float: left;
+  display: block;
+  width: 86px;
+}
+.colPriPag {
+  float: left;
+  display: block;
+  width: 250px;
+}
+.comprasFeitas {
+  float: right;
+  width: 230px;
+  height: 180px;
+  margin-top: 8px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+#bandeira {
+  margin-bottom: 20px;
+}

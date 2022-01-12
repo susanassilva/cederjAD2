@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo Branca</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img class="imgLogo" src="Imagens\LogoCOM_Topo.png" />
+      <nav class="menu">
+        <a href="home.html" class="botao"> inicial </a>
+        <a href="mascaras.html" class="botao"> máscaras </a>
+        <a href="camisas.html" class="botao"> camisas </a>
+        <a href="compras.html" class="botao"> compras </a>
+      </nav>
+    </header>
+    <section>
+      <p class="janInfo">Modelo Branca</p>
+      <img
+        src="Imagens/MascaraBrancaLado150.png"
+        alt="Imagem de Máscara Branca"
+        class="imgMasc"
+      />
+      <input
+        type="button"
+        alt="Botão Fechar a Janela"
+        class="janInfo"
+        value="Fechar"
+        id="btnClose"
+      />
+    </section>
+    <footer class="ender">
+      Via Lactea, 1234 / Tel: (21) 98765-4321 / contato@camplanetas.com.br
+    </footer>
+    <script>
+      document.getElementById("btnClose").onclick = function () {
+        window.close();
+      };
+    </script>
+  </body>
+</html>
